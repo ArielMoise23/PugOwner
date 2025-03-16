@@ -1,0 +1,42 @@
+.album-window {
+  border: 1px solid orangered;
+  border-radius: 10px;
+  padding: 20px 80px;
+  margin: 20px;
+  background: rgba(128, 128, 128, 0.596);
+  height: max-content;
+}
+
+.album-window p {
+  font-size: 0.75rem;
+  color: orangered;
+  text-align: left;
+}
+
+.album-window button {
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.album-window button:hover {
+  color: orangered;
+}
+
+.album-window img {
+  width: 250px;
+}
+
+.btns {
+  float: right;
+}
+
+@media (max-width: 860px) {
+  .album-window img {
+    width: 150px;
+  }
+  .album-window {
+    padding: 5px;
+    margin: 5px;
+  }
+}

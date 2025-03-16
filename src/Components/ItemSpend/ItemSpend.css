@@ -1,0 +1,15 @@
+.item-spend {
+  border-radius: 30px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  right: 20%;
+}
+
+.item-spend img {
+  width: 90px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
